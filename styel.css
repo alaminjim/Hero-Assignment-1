@@ -229,5 +229,41 @@ body{
 
 /* video tag */
 
+.video-section{
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.video-section-text h2{
+    width: 852px;
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 25px;
+    font-size: 32px;
+    color: rgb(13, 19, 33);
+}
+.video-section-text p{
+    width: 852px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(13, 19, 33);
+}
 
+.video-tag{
+    width: 1140px;
+    height: 590px;;
+    margin: 0 auto;
+    margin-top: 50px;
 
+}
