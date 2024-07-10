@@ -259,11 +259,144 @@ body{
     font-size: 18px;
     color: rgb(13, 19, 33);
 }
-
 .video-tag{
     width: 1140px;
     height: 590px;;
     margin: 0 auto;
     margin-top: 50px;
-
 }
+
+/* my terget section */
+
+.current-terget-section{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.terget-section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.terget-text h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 40px;
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+}
+.terget-text p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 144px;
+    margin-left: 144px;
+}
+.terget-text-half{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    padding-top: 10px;
+    color: rgb(13, 19, 33);
+}
+
+.terget-section-lang{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.html{
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 20px;
+}
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.js{
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+}
+.para{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* fotter-section */
+.banner-fotter{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    background-image: url(assets/handshake.jpg);
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-foot-text h2{
+    margin-top: 70px;
+    margin-left: 455px;
+    margin-left: 455px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+.h2{
+    padding-top: 30px;
+}
+.banner-foot-text p{
+    margin-left: 330px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+/* fotter-btn */
+
+.feedback{
+    width: 450px;
+    height: 47px;
+    margin-left: 280px;
+    margin-top: 99px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+}
+.sub{
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.feedback-sub{
+    padding-bottom: 30px;
+    
+}
+/* last */
+
+.last-footer{
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:380px;
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+  
